@@ -1,4 +1,4 @@
-import User from '../models/user.js';
+import User from '../models/User.js';
 import Job from '../models/Job.js';
 
 const createJob = async (jobData, recruiterId) => {

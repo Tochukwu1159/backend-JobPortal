@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 import crypto from 'crypto';
-import User from '../models/user.js'; // Import the Mongoose User model
+import User from '../models/User.js'; // Import the Mongoose User model
 
 // Update User
 const updateUser = async (userId, updateData) => {
